@@ -5,7 +5,7 @@ from flask import Flask, request, render_template_string
 app = Flask(__name__)
 
 # Load the trained model
-with open('model.pkl', 'rb') as f:
+with open('logictic.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # HTML Template with modern, responsive styling
